@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: montserrat;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;;
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+}
+#nav>img{
+    height: 60px;
+
+
+}
+#center-nav{
+    display: flex;
+    gap: 20px;
+}
+#center-nav>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+#nav>input{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    text-transform: lowercase;
+    font-size: 12px;
+    font-style: italic;
+    box-shadow: 0px 1px 5px 0px #00000052;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#page > img{
+    width: 50%;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#text{
+    position: relative;
+    padding: 30px 50px;
+    top: 15%;
+    left: 5%;
+    height: 75%;
+    width: 35%;
+}
+#text>h1{
+    font-size: 55px;
+    line-height: 1;
+    margin-top: 15px;
+}
+#text>h4{
+    margin-top: 50px;
+    color: rgb(48, 48, 48);
+    font-size: 17px;
+    font-weight: 400;
+}
+#text>h5{
+    color: #8873ef;
+    transform: rotate(-20deg);
+    position: absolute;
+    left: 4%;
+
+}
+#buttons{
+    padding: 30px 0;
+}
+#buttons>button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-family: montserrat;
+}
+#buttons>button>i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.b1{
+    background-color: #8873ef;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+#page1{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fcda69;
+}
+#left{
+    position: absolute;
+    width: 35%;
+    height: 90%;
+    top:50%;
+    right: 5%;
+    transform: translateY(-50%);
+}
+#left>.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 33.3%;
+    border-top: 2px solid black;
+
+}
+
+.box>#circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: #8873ef;
+    border-radius: 50%;
+}
+.box>#circle>i{
+    color: #fff;
+    font-size: 20px;
+}
+#right>#text1{
+    position: relative;
+    width: 40%;
+    height: 30%;
+    margin: 100px 20px;
+    z-index: 9;
+    padding: 20px 30px;
+}
+#text1>h5{
+    color: #8873ef;
+    transform: rotate(-20deg);
+    position: absolute;
+    left: 4%;
+
+}
+#text1>h1{
+    position: relative;
+    font-size: 60px;
+    line-height: 1;
+    margin-top: 15px;
+}
+#text1>h4{
+    margin-top: 50px;
+    color: rgb(48, 48, 48);
+    font-size: 17px;
+    font-weight: 400;
+}
+/* --------------------------------------------------------------------------------------------------- */
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+#project{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+
+
+}
+.projects{
+    height: 100%;
+    width: 31%;
+}
+#text3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    height: 33.3%;
+    border-top: 2px solid black;
+
+}
+
+#text3>#circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: #8873ef;
+    border-radius: 50%;
+}
+.text3>#circle>i{
+    color: #fff;
+    font-size: 20px;
+}
+.projects>img{
+   height: 70%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    object-position: top;
+}
+.p2{
+    position: relative;
+    top: -15%;
+}
+.p3{
+    position: relative;
+    top: -30%;
+}
+#text4{
+    position: absolute;
+    left: 5%;
+}
+#text4>h5{
+    color: #8873ef;
+    transform: rotate(-20deg);
+    top: 20%;
+    position: absolute;
+
+}
+#text4>h1{
+    font-size: 60px;
+    line-height: 1;
+    margin-top: 60px;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fcda69;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+
+}
+#left1{
+    position: relative;
+    height: 50%;
+    width: 35%;
+}
+#right1{
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.line{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 175px;
+    background-color: #8873ef;
+    border-radius: 50%;
+}
+.circle>i{
+    font-size: 100px;
+    color: #fff;
+}
+.l2{
+    background-color: black;
+    rotate: 15deg;
+    transform-origin: left;
+    height: 2px;
+    width: 70%;
+    margin-top: 10px;
+}
+#text5{
+    height: 30%;
+    width: 100%;
+    position: relative;
+}
+#text5>h5{
+    position: absolute;
+    color: #8873ef;
+    rotate: -20deg;
+    top: -20%;
+    left: -5%;
+}
+#text5>h1{
+    font: bold;
+    font-size: 60px;
+    position: relative;
+}
+#info{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    bottom: 0%;
+    margin-top: 50px;
+}
+.infos{
+    height: 50%;
+    width: 100%;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.infos>.circle{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+
+}
+.infos>.circle>i{
+    font-size: 20px;
+    color: black;
+}
